@@ -1,0 +1,33 @@
+C:\Users\tomge\source\repos\Self Development System\Self Development System\bin\Debug\Self Development System.exe
+C:\Users\tomge\source\repos\Self Development System\Self Development System\bin\Debug\Self Development System.pdb
+C:\Users\tomge\source\repos\Self Development System\Self Development System\bin\Debug\Self Development System.xml
+C:\Users\tomge\source\repos\Self Development System\Self Development System\bin\Debug\Guna.UI2.dll
+C:\Users\tomge\source\repos\Self Development System\Self Development System\obj\Debug\Self Development System.vbproj.AssemblyReference.cache
+C:\Users\tomge\source\repos\Self Development System\Self Development System\obj\Debug\Self_Development_System.Form1.resources
+C:\Users\tomge\source\repos\Self Development System\Self Development System\obj\Debug\Self_Development_System.Form2.resources
+C:\Users\tomge\source\repos\Self Development System\Self Development System\obj\Debug\Self_Development_System.Resources.resources
+C:\Users\tomge\source\repos\Self Development System\Self Development System\obj\Debug\Self Development System.vbproj.GenerateResource.cache
+C:\Users\tomge\source\repos\Self Development System\Self Development System\obj\Debug\Self Development System.vbproj.CoreCompileInputs.cache
+C:\Users\tomge\source\repos\Self Development System\Self Development System\obj\Debug\Self Development System.vbproj.CopyComplete
+C:\Users\tomge\source\repos\Self Development System\Self Development System\obj\Debug\Self Development System.exe
+C:\Users\tomge\source\repos\Self Development System\Self Development System\obj\Debug\Self Development System.xml
+C:\Users\tomge\source\repos\Self Development System\Self Development System\obj\Debug\Self Development System.pdb
+C:\Users\tomge\source\repos\Self Development System\Self Development System\bin\Debug\Self Development System.exe.config
+C:\Users\tomge\source\repos\Self Development System\Self Development System\bin\Debug\MySql.Data.dll
+C:\Users\tomge\source\repos\Self Development System\Self Development System\obj\Debug\Self_Development_System.dashboard.resources
+C:\Users\tomge\source\repos\Self Development System\Self Development System\obj\Debug\Self_Development_System.Taskhub.resources
+C:\Users\tomge\source\repos\Self Development System\Self Development System\obj\Debug\Self_Development_System.todolist.resources
+C:\Users\tomge\source\repos\Self Development System\Self Development System\obj\Debug\Self_Development_System.wishlist.resources
+C:\Users\tomge\source\repos\Self Development System\Self Development System\obj\Debug\Self_Development_System.stopwatch.resources
+C:\Users\tomge\source\repos\Self Development System\Self Development System\obj\Debug\Self_Development_System.timeboard.resources
+C:\Users\tomge\source\repos\Self Development System\Self Development System\obj\Debug\Self_Development_System.Pomodaro.resources
+C:\Users\tomge\source\repos\Self Development System\Self Development System\obj\Debug\Self_Development_System.common.resources
+C:\Users\tomge\source\repos\Self Development System\Self Development System\obj\Debug\Self_Development_System.Netwrkbrd.resources
+C:\Users\tomge\source\repos\Self Development System\Self Development System\obj\Debug\Self_Development_System.Career.resources
+C:\Users\tomge\source\repos\Self Development System\Self Development System\obj\Debug\Self_Development_System.DailyJournal.resources
+C:\Users\tomge\source\repos\Self Development System\Self Development System\obj\Debug\Self_Development_System.bookj.resources
+C:\Users\tomge\source\repos\Self Development System\Self Development System\obj\Debug\Self_Development_System.moviejournal.resources
+C:\Users\tomge\source\repos\Self Development System\Self Development System\obj\Debug\Self_Development_System.bookreco.resources
+C:\Users\tomge\source\repos\Self Development System\Self Development System\obj\Debug\Self_Development_System.movierec.resources
+C:\Users\tomge\source\repos\Self Development System\Self Development System\obj\Debug\Self_Development_System.reflections.resources
+C:\Users\tomge\source\repos\Self Development System\Self Development System\obj\Debug\Self_Development_System.affirmations.resources

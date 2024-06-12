@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5F4C62AD-7D52-4234-AE56-0329B61B6C87}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Self_Development_System.My.MyApplication</StartupObject>
+    <RootNamespace>Self_Development_System</RootNamespace>
+    <AssemblyName>Self Development System</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Self Development System.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Self Development System.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Guna.UI2">
+      <HintPath>..\..\..\..\..\..\tomgeo\Guna_UI_Framework_Ultimate_v2.0.0.1\Guna_UI_Framework_Ultimate_v2.0.0.1\Guna.UI-Framework-Lib-master\Guna.UI2 WinForms\.net 4.0\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data">
+      <HintPath>..\..\..\..\OneDrive\Desktop\sepro\Registration &amp; Login - Files\vbFiles\MySQL Connector\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="affirmations.Designer.vb">
+      <DependentUpon>affirmations.vb</DependentUpon>
+    </Compile>
+    <Compile Include="affirmations.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bookj.Designer.vb">
+      <DependentUpon>bookj.vb</DependentUpon>
+    </Compile>
+    <Compile Include="bookj.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bookreco.Designer.vb">
+      <DependentUpon>bookreco.vb</DependentUpon>
+    </Compile>
+    <Compile Include="bookreco.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Career.Designer.vb">
+      <DependentUpon>Career.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Career.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="common.Designer.vb">
+      <DependentUpon>common.vb</DependentUpon>
+    </Compile>
+    <Compile Include="common.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Daily Journal.Designer.vb">
+      <DependentUpon>Daily Journal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Daily Journal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dashboard.Designer.vb">
+      <DependentUpon>dashboard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dashboard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.vb">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Globals.vb" />
+    <Compile Include="moviejournal.Designer.vb">
+      <DependentUpon>moviejournal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="moviejournal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="movierec.Designer.vb">
+      <DependentUpon>movierec.vb</DependentUpon>
+    </Compile>
+    <Compile Include="movierec.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Netwrkbrd.Designer.vb">
+      <DependentUpon>Netwrkbrd.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Netwrkbrd.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pomodaro.Designer.vb">
+      <DependentUpon>Pomodaro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pomodaro.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="reflections.Designer.vb">
+      <DependentUpon>reflections.vb</DependentUpon>
+    </Compile>
+    <Compile Include="reflections.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stopwatch.Designer.vb">
+      <DependentUpon>stopwatch.vb</DependentUpon>
+    </Compile>
+    <Compile Include="stopwatch.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Taskhub.Designer.vb">
+      <DependentUpon>Taskhub.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Taskhub.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="timeboard.Designer.vb">
+      <DependentUpon>timeboard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="timeboard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="todolist.Designer.vb">
+      <DependentUpon>todolist.vb</DependentUpon>
+    </Compile>
+    <Compile Include="todolist.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserControl1.Designer.vb">
+      <DependentUpon>UserControl1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl1.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="wishlist.Designer.vb">
+      <DependentUpon>wishlist.vb</DependentUpon>
+    </Compile>
+    <Compile Include="wishlist.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="affirmations.resx">
+      <DependentUpon>affirmations.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bookj.resx">
+      <DependentUpon>bookj.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bookreco.resx">
+      <DependentUpon>bookreco.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Career.resx">
+      <DependentUpon>Career.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="common.resx">
+      <DependentUpon>common.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Daily Journal.resx">
+      <DependentUpon>Daily Journal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dashboard.resx">
+      <DependentUpon>dashboard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="moviejournal.resx">
+      <DependentUpon>moviejournal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="movierec.resx">
+      <DependentUpon>movierec.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Netwrkbrd.resx">
+      <DependentUpon>Netwrkbrd.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pomodaro.resx">
+      <DependentUpon>Pomodaro.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reflections.resx">
+      <DependentUpon>reflections.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stopwatch.resx">
+      <DependentUpon>stopwatch.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Taskhub.resx">
+      <DependentUpon>Taskhub.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="timeboard.resx">
+      <DependentUpon>timeboard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="todolist.resx">
+      <DependentUpon>todolist.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wishlist.resx">
+      <DependentUpon>wishlist.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
