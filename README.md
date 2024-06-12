@@ -13,9 +13,9 @@ Welcome to the Productivity Management System! This application is designed to h
 
 ## Getting Started
 
-To get started with the Productivity Management System, follow these steps:
+NB: This Does not include the database connection
 
-1. **Clone the repository**:
+ **Clone the repository**:
    ```sh
    git clone https://github.com/Aaduthoma007/Productivity-Management-System.git
 
